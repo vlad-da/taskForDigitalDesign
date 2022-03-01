@@ -1,3 +1,7 @@
 body {
-    background-color: red;
+    margin: 0 auto;
+}
+.wrapper {
+    margin: 0 50px;
+    box-shadow: 0px 0px 30px grey;
 }
