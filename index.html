@@ -18,15 +18,16 @@
                     <li><a href="#css">CSS</a></li>
                     <li><a href="#pre-css">Препроцессоры</a></li>
                     <li><a href="#js">JavaScript</a></li>
-                    <li><a href="#jQuery">Устаревшие веб-приложения с jQuery</a></li>
-                    <li><a href="#angular">Angular</a></li>
-                    <li><a href="#react">React</a></li>
-                    <li><a href="#vue">Vue</a></li>
-                    <li><a href="#choose">Выбор платформы</a></li>
+                    <li class="laptop"><a href="#jQuery">jQuery</a></li>
+                    <li class="laptop"><a href="#angular">Angular</a></li>
+                    <li class="laptop"><a href="#react">React</a></li>
+                    <li class="laptop"><a href="#vue">Vue</a></li>
+                    <li class="laptop"><a href="#choose">Выбор платформы</a></li>
                 </ul>
             </nav>
         </header>
         <main class="main">
+            <div id="scrollTop" onclick="goUp()">Вверх</div>
             <section>
                 <h2 id="ogl">Оглавление</h2>
                 <div class="content" >
@@ -50,7 +51,7 @@
             </section>
             
             <section>
-                <h1 >Введение</h1>
+                <h1>Введение</h1>
                 <div class="pre-content-text">
                     <p>
                         Приложения ASP.NET Core являются веб-приложениями и обычно 
@@ -90,7 +91,7 @@
             </section>
 
             <section>
-                <h2 >HTML</h2>
+                <h2><a href="https://www.w3.org/standards/webdesign/htmlcss">HTML</a></h2>
                 <div class="pre-content-text">
                     <p id="css">
                         HTML — это стандартный язык разметки, используемый для создания 
@@ -106,7 +107,7 @@
             </section>
 
             <section>
-                <h2 >CSS</h2>
+                <h2><a href="https://www.w3.org/standards/webdesign/htmlcss">CSS</a></h2>
                     <div class="pre-content-text">
                         <p>
                             Каскадные таблицы стилей (CSS) определяют оформление и макет элементов HTML. 
@@ -124,7 +125,7 @@
                         
                     <figure class="sign">
                         <p>
-                            <img src="/img/css.png" width="900" height="500" alt="CSS-arrow">
+                            <img src="/img/css.png" width="900" height="500" alt="CSS-arrow" id="css-pic">
                         </p>
                         <figcaption>
                             <p>
@@ -145,14 +146,14 @@
             </section>
 
             <section>
-                <h2 >Препроцессоры CSS</h2>
+                <h2><a href="https://www.keycdn.com/blog/sass-vs-less">Препроцессоры CSS</a></h2>
                 <div class="pre-content-text">
                     <p>
                         Таблицы стилей CSS не поддерживают условную логику, переменные и другие возможности 
                         языка программирования. Таким образом, крупные таблицы стилей часто содержат повторы, 
                         поскольку одни и те же цвета, шрифты и другие параметры могут применяться к различным 
                         элементам HTML и классам каскадных таблиц стилей. Применение препроцессоров для таблиц 
-                        стилей CSS позволяет обеспечить соблюдение <a href="#"> принципа "Не повторяйся" </a> за 
+                        стилей CSS позволяет обеспечить соблюдение <a href="https://deviq.com/principles/dont-repeat-yourself"> принципа "Не повторяйся" </a> за 
                         счет добавления поддержки переменных и логики.
                     </p>
                 </div>
@@ -168,7 +169,7 @@
                 </div>
             </section>
             <section>
-                <h2 >JavaScript</h2>
+                <h2><a href="https://learn.javascript.ru/">JavaScript</a></h2>
                 <div class="pre-content-text">
                     <p>
                         JavaScript — это динамически интерпретируемый язык программирования, который был 
@@ -204,7 +205,7 @@
                 </div>
             </section>
             <section>
-                <h2 >Устаревшие веб-приложения с jQuery</h2>
+                <h2><a href="https://jquery.com/">Устаревшие веб-приложения с jQuery</a></h2>
                 <div class="pre-content-text">
                     <p>
                         Несмотря на почтенный по меркам платформ JavaScript возраст, библиотека jQuery 
@@ -230,11 +231,11 @@
 
             </section>
             <section>
-                <h2 >Одностраничные приложения Angular</h2>
+                <h2><a href="https://angular.io/">Одностраничные приложения Angular</a></h2>
                 <div class="pre-content-text">
                     <p>
                         Angular остается одной из самых популярных в мире платформ JavaScript. Начиная с 
-                        Angular версии 2 платформа была перестроена с нуля с использованием <a href="#">TypeScript</a>, после 
+                        Angular версии 2 платформа была перестроена с нуля с использованием <a href="https://www.typescriptlang.org/">TypeScript</a>, после 
                         чего оригинальное наименование AngularJS было заменено на Angular. Сейчас, несколько 
                         лет спустя, Angular все равно остается одной из самых надежных платформ для построения 
                         одностраничных приложений.
@@ -249,7 +250,7 @@
                 </div>
                 <figure class="sign">
                     <p>
-                        <img src="/img/angular.png" width="700px" height="200px" alt="CSS-arrow">
+                        <img src="/img/angular.png" width="700px" height="200px" alt="angulare-code" id="angulare-pic">
                     </p>
                     <figcaption>
                         <p>
@@ -292,12 +293,12 @@
                         реализацию одностраничного приложения Angular. Это приложение содержит модули Angular для 
                         управления корзиной покупок в интернет-магазине, загрузки и отображения элементов из каталога 
                         магазина, а также для обработки процесса создания заказа. Пример приложения можно просмотреть 
-                        и скачать на сайте <a href="#">GitHub</a>.
+                        и скачать на сайте <a href="https://github.com/">GitHub</a>.
                     </p>
                 </div>
             </section>
             <section>
-                <h2 >React</h2>
+                <h2><a href="https://reactjs.org/">React</a></h2>
                 <div class="pre-content-text">
                     <p>
                         В отличие от Angular, где представлена полноценная реализация шаблона "модель-представление-контроллер", 
@@ -326,7 +327,7 @@
                 </div>
                 <figure class="sign">
                     <p>
-                        <img src="/img/react.png" width="700px" height="150px" alt="CSS-arrow">
+                        <img src="/img/react.png" width="700px" height="150px" alt="react-code" id="react-pic">
                     </p>
                     <figcaption>
                         <p>
@@ -354,7 +355,7 @@
                 </div>
             </section>
             <section>
-                <h2 >Vue</h2>
+                <h2><a href="https://vuejs.org/">Vue</a></h2>
                 <div class="pre-content-text">
                     <p>
                         Из руководства по началу работы, мы знаем, что, "Vue — это прогрессивная платформа для 
@@ -368,15 +369,15 @@
                 <div class="pre-content-text second" id="choose">
                     <p>
                         Разумеется, это всего лишь малая часть того, на что способен Vue. В течение последних нескольких 
-                        лет он получает огромную популярность и имеет большое сообщество. Существует огромный и растущий 
-                        список вспомогательных компонентов и библиотек, которые работают с Vue для его расширения. Если вы 
+                        лет он получает огромную популярность и имеет большое сообщество. Существует <a href="https://github.com/vuejs/awesome-vue#redux">огромный и растущий 
+                        список вспомогательных компонентов и библиотек</a>, которые работают с Vue для его расширения. Если вы 
                         хотите добавить поведение на стороне клиента к вашему веб-приложению или рассматриваете возможность 
                         создания полноценного SPA, стоит изучить Vue.
                     </p>
                 </div>
             </section>
             <section>
-                <h2 >Выбор платформы одностраничных приложений</h2>
+                <h2><a href="https://www.freecodecamp.org/news/complete-guide-for-front-end-developers-javascript-frameworks-2019/">Выбор платформы одностраничных приложений</a></h2>
                 <div class="pre-content-text">
                     <p>
                         При выборе оптимального варианта для поддержки одностраничных приложений необходимо ответить на следующие вопросы.

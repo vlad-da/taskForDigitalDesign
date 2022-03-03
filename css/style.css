@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
     position: sticky;
     top: 0;
     padding: 30px 0 30px 0;;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     background-color: rgb(186, 193, 253);
     font-size: 18px;
     font-weight: bold;
@@ -42,7 +42,19 @@ footer, header, hgroup, menu, nav, section {
 }
 .nav-head-ul li {
     list-style-type: none;
-
+}
+.nav-head-ul li a {
+    list-style-type: none;
+    color: #000;
+}
+.nav-head-ul li a:hover {
+    color: rgb(255, 255, 255);
+}
+.content .ul-content li a {
+    color: #000;
+}
+.content .ul-content li a:hover {
+    color: rgb(89, 0, 255);
 }
 a {
     text-decoration: none;
@@ -57,7 +69,7 @@ section {
     text-align: center;
 }
 .ul-content li{
-    margin: 20px;
+    margin-top: 20px;
     margin-inline-start: 0px;
     list-style-type: none;
     font-size: 18px;
@@ -77,7 +89,7 @@ h1 {
 }
 
 .note {
-    background-color: rgb(241, 153, 212);
+    background-color: rgb(248, 209, 235);
     border-radius: 10px;
 }
 .note-head  {
@@ -85,13 +97,19 @@ h1 {
     font-weight: 700;
 }
 .note-body {
-    padding: 10px 0px 20px 20px;
+    padding: 10px 20px 20px 20px;
 }
 h2 {
     font-size: 30px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 30px;
+}
+h2 a {
+    color: black;
+}
+h2 a:hover {
+    color: rgb(89, 0, 255);
 }
 .sign  {
     text-align: center;
@@ -111,4 +129,235 @@ footer {
     text-align: center;
     font-size: 18px;
     font-weight: bold;
+}
+div p a {
+    color: rgb(209, 5, 5);
+}
+div p a:hover {
+    color: rgb(1, 6, 255);
+}
+#scrollTop {
+    position: fixed;
+    z-index: 10;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(186, 193, 253); ;
+    padding: 7px;
+    border-radius: 10px;
+    margin-left: -90px;
+    opacity: 0.7;
+}
+#scrollTop:hover {
+    opacity: 1;
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+    .head {
+        margin-bottom: 20px;
+        padding: 20px 0 20px 0;
+    }
+    .nav-head-ul {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        text-align: center;
+    }
+    .laptop {
+        margin-top: 10px;
+    }
+    #css-pic {
+        width: 700px;
+        height: 350px;
+    }
+    #scrollTop {
+        font-size: 18px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1399px) {
+    .wrapper {
+        margin: 0px 60px 0 60px;
+    }
+    body {
+        font-size: 14px;
+    }
+    .head {
+        margin-bottom: 20px;
+        padding: 15px 0 15px 0;
+    }
+    section {
+        margin-bottom: 20px;
+    }
+    .nav-head-ul {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        text-align: center;
+        margin: 0 20px 0 20px;
+        font-size: 14px;
+    }
+    .ul-content li{
+        margin-top: 10px;
+        margin-inline-start: 0px;
+        list-style-type: none;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .laptop {
+        margin-top: 10px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #css-pic {
+        width: 500px;
+        height: 250px;
+    }
+    #angulare-pic {
+        width: 600px;
+        height: 150px;
+    }
+    #react-pic {
+        width: 600px;
+        height: 150px;
+    }
+    #scrollTop {
+        font-size: 14px;
+    }
+    footer {
+        font-size: 14px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .wrapper {
+        margin: 0 40px 0 40px;
+    }
+    body {
+        font-size: 12px;
+    }
+    .head {
+        margin-bottom: 20px;
+        padding: 15px 0 15px 0;
+    }
+    section {
+        margin-bottom: 25px;
+    }
+    .nav-head-ul {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        text-align: center;
+        margin: 0 15px 0 0px;
+        font-size: 13px;
+    }
+    .ul-content li{
+        margin-top: 10px;
+        margin-inline-start: 0px;
+        list-style-type: none;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .laptop {
+        margin-top: 5px;
+        
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .note-body {
+        padding: 10px 20px 20px 20px;
+    }
+    #css-pic {
+        width: 500px;
+        height: 250px;
+    }
+    #angulare-pic {
+        width: 100%;
+        height: 100%;
+    }
+    #react-pic {
+        width: 100%;
+        height: 100%;
+    }
+    #scrollTop {
+        font-size: 12px;
+    }
+    footer {
+        font-size: 13px;
+        padding: 15px 0 15px 0;
+    }
+}
+/* Landscape phones and portrait tablets */
+@media (min-width: 675px) and (max-width: 767px) {
+    .wrapper {
+        margin: 0 20px 0 20px;
+    }
+    body {
+        font-size: 10px;
+    }
+    .head {
+        margin-bottom: 20px;
+        padding: 10px 0 10px 0;
+    }
+    .nav-head-ul {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        text-align: center;
+        margin: 0 15px 0 0px;
+        font-size: 12px;
+    }
+    section {
+        margin-bottom: 20px;
+    }
+    .ul-content li{
+        margin-top: 7px;
+        margin-inline-start: 0px;
+        list-style-type: none;
+        font-size: 10px;
+        font-weight: 700;
+    }
+    .laptop {
+        margin-top: 5px;
+        
+    }
+    h1 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    h2 {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .second {
+        margin: 15px 0;
+    }
+    #css-pic {
+        width: 100%;
+        height: 100%;
+    }
+    #angulare-pic {
+        width: 100%;
+        height: 100%;
+    }
+    #react-pic {
+        width: 100%;
+        height: 100%;
+    }
+    #scrollTop {
+        font-size: 12px;
+    }
+    .note-body {
+        padding: 10px 20px 20px 20px;
+    }
+    footer {
+        font-size: 12px;
+        padding: 15px 0 15px 0;;
+    }
 }
