@@ -152,7 +152,8 @@ div p a:hover {
     opacity: 1;
 }
 
-@media (min-width: 1400px) and (max-width: 1600px) {
+/* Landscape phones and portrait tablets */
+@media (min-width: 1401px) and (max-width: 1600px) {
     .head {
         margin-bottom: 20px;
         padding: 20px 0 20px 0;
@@ -173,7 +174,7 @@ div p a:hover {
         font-size: 18px;
     }
 }
-@media (min-width: 992px) and (max-width: 1399px) {
+@media (min-width: 1201px) and (max-width: 1400px) {
     .wrapper {
         margin: 0px 60px 0 60px;
     }
@@ -192,7 +193,7 @@ div p a:hover {
         grid-template-columns: repeat(5, 1fr);
         text-align: center;
         margin: 0 20px 0 20px;
-        font-size: 14px;
+        font-size: 16px;
     }
     .ul-content li{
         margin-top: 10px;
@@ -228,22 +229,83 @@ div p a:hover {
         font-size: 14px;
     }
     footer {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 993px) and (max-width: 1200px) {
     .wrapper {
-        margin: 0 40px 0 40px;
+        margin: 0px 60px 0 60px;
     }
     body {
-        font-size: 12px;
+        font-size: 14px;
     }
     .head {
         margin-bottom: 20px;
         padding: 15px 0 15px 0;
     }
     section {
-        margin-bottom: 25px;
+        margin-bottom: 20px;
+    }
+    .nav-head-ul {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        text-align: center;
+        margin: 0 20px 0 20px;
+        font-size: 16px;
+    }
+    .ul-content li{
+        margin-top: 10px;
+        margin-inline-start: 0px;
+        list-style-type: none;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .laptop {
+        margin-top: 10px;
+    }
+    h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    h2 {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #css-pic {
+        width: 500px;
+        height: 250px;
+    }
+    #angulare-pic {
+        width: 600px;
+        height: 150px;
+    }
+    #react-pic {
+        width: 600px;
+        height: 150px;
+    }
+    #scrollTop {
+        font-size: 15px;
+    }
+    footer {
+        font-size: 16px;
+        padding: 15px 0 15px 0;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    .wrapper {
+        margin: 0 40px 0 40px;
+    }
+    body {
+        font-size: 13px;
+    }
+    .head {
+        margin-bottom: 20px;
+        padding: 15px 0 15px 0;
+    }
+    section {
+        margin-bottom: 20px;
     }
     .nav-head-ul {
         display: grid;
@@ -256,7 +318,7 @@ div p a:hover {
         margin-top: 10px;
         margin-inline-start: 0px;
         list-style-type: none;
-        font-size: 12px;
+        font-size: 15px;
         font-weight: 700;
     }
     .laptop {
@@ -265,13 +327,19 @@ div p a:hover {
     }
     h1 {
         font-size: 20px;
+        margin-bottom: 15px;
     }
     h2 {
         font-size: 18px;
         text-align: center;
+        margin-bottom: 15px;
+    }
+    .note-head  {
+        padding: 10px 0px 10px 10px;
+        font-weight: 700;
     }
     .note-body {
-        padding: 10px 20px 20px 20px;
+        padding: 0px 10px 10px 10px;
     }
     #css-pic {
         width: 500px;
@@ -293,8 +361,7 @@ div p a:hover {
         padding: 15px 0 15px 0;
     }
 }
-/* Landscape phones and portrait tablets */
-@media (min-width: 675px) and (max-width: 767px) {
+@media (min-width: 577px) and (max-width: 768px) {
     .wrapper {
         margin: 0 20px 0 20px;
     }
@@ -303,14 +370,14 @@ div p a:hover {
     }
     .head {
         margin-bottom: 20px;
-        padding: 10px 0 10px 0;
+        padding: 5px 0 5px 0;
     }
     .nav-head-ul {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         text-align: center;
         margin: 0 15px 0 0px;
-        font-size: 12px;
+        font-size: 10px;
     }
     section {
         margin-bottom: 20px;
@@ -327,16 +394,23 @@ div p a:hover {
         
     }
     h1 {
-        font-size: 16px;
-        margin-bottom: 15px;
+        font-size: 15px;
+        margin-bottom: 12px;
     }
     h2 {
-        font-size: 16px;
+        font-size: 14px;
         text-align: center;
-        margin-bottom: 15px;
+        margin-bottom: 12px;
     }
     .second {
-        margin: 15px 0;
+        margin: 12px 0;
+    }
+    .note-head  {
+        padding: 10px 0px 10px 10px;
+        font-weight: 700;
+    }
+    .note-body {
+        padding: 0px 10px 10px 10px;
     }
     #css-pic {
         width: 100%;
@@ -351,13 +425,80 @@ div p a:hover {
         height: 100%;
     }
     #scrollTop {
-        font-size: 12px;
-    }
-    .note-body {
-        padding: 10px 20px 20px 20px;
+        font-size: 10px;
     }
     footer {
         font-size: 12px;
-        padding: 15px 0 15px 0;;
+        padding: 10px 0 10px 0;;
+    }
+}
+@media (min-width:460px) and (max-width: 576px) {
+    .wrapper {
+        margin: 0 15px 0 15px;
+    }
+    body {
+        font-size: 10px;
+    }
+    .head {
+        margin-bottom: 10px;
+        padding: 5px 0 5px 0;
+    }
+    .nav-head-ul {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        text-align: center;
+        margin: 0 15px 0 0px;
+        font-size: 8px;
+    }
+    section {
+        margin-bottom: 10px;
+    }
+    .ul-content li{
+        margin-top: 5px;
+        margin-inline-start: 0px;
+        list-style-type: none;
+        font-size: 10px;
+        font-weight: 700;
+    }
+    .laptop {
+        margin-top: 5px;
+    }
+    h1 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    h2 {
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    .second {
+        margin: 10px 0;
+    }
+    .note-head  {
+        padding: 10px 0px 10px 10px;
+        font-weight: 700;
+    }
+    .note-body {
+        padding: 0px 10px 10px 10px;
+    }
+    #css-pic {
+        width: 100%;
+        height: 100%;
+    }
+    #angulare-pic {
+        width: 100%;
+        height: 100%;
+    }
+    #react-pic {
+        width: 100%;
+        height: 100%;
+    }
+    #scrollTop {
+        font-size: 8px;
+    }
+    footer {
+        font-size: 8px;
+        padding: 5px 0 5px 0;;
     }
 }
