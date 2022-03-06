@@ -152,7 +152,7 @@ div p a:hover {
     opacity: 1;
 }
 
-/* Landscape phones and portrait tablets */
+/* Extra extra large */
 @media (min-width: 1401px) and (max-width: 1600px) {
     .head {
         margin-bottom: 20px;
@@ -174,6 +174,7 @@ div p a:hover {
         font-size: 18px;
     }
 }
+/* Extra large */
 @media (min-width: 1201px) and (max-width: 1400px) {
     .wrapper {
         margin: 0px 60px 0 60px;
@@ -232,6 +233,7 @@ div p a:hover {
         font-size: 16px;
     }
 }
+/* Large */
 @media (min-width: 993px) and (max-width: 1200px) {
     .wrapper {
         margin: 0px 60px 0 60px;
@@ -293,6 +295,7 @@ div p a:hover {
         padding: 15px 0 15px 0;
     }
 }
+/* Medium */
 @media (min-width: 769px) and (max-width: 992px) {
     .wrapper {
         margin: 0 40px 0 40px;
@@ -361,6 +364,7 @@ div p a:hover {
         padding: 15px 0 15px 0;
     }
 }
+/* Small */
 @media (min-width: 577px) and (max-width: 768px) {
     .wrapper {
         margin: 0 20px 0 20px;
@@ -432,6 +436,7 @@ div p a:hover {
         padding: 10px 0 10px 0;;
     }
 }
+/* X-Small */
 @media (min-width:460px) and (max-width: 576px) {
     .wrapper {
         margin: 0 15px 0 15px;
