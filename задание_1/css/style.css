@@ -172,6 +172,11 @@ div p a:hover {
     }
     #scrollTop {
         font-size: 18px;
+        margin-left: -85px;
+    }
+    footer {
+        font-size: 16px;
+        padding: 20px 0 20px 0;
     }
 }
 /* Extra large */
@@ -228,9 +233,11 @@ div p a:hover {
     }
     #scrollTop {
         font-size: 14px;
+        margin-left: -80px;
     }
     footer {
         font-size: 16px;
+        padding: 15px 0 15px 0;
     }
 }
 /* Large */
@@ -289,6 +296,7 @@ div p a:hover {
     }
     #scrollTop {
         font-size: 15px;
+        margin-left: -80px;
     }
     footer {
         font-size: 16px;
@@ -358,6 +366,7 @@ div p a:hover {
     }
     #scrollTop {
         font-size: 12px;
+        margin-left: -78px;
     }
     footer {
         font-size: 13px;
@@ -371,6 +380,9 @@ div p a:hover {
     }
     body {
         font-size: 10px;
+    }
+    main {
+        margin: 0 50px 0 50px;
     }
     .head {
         margin-bottom: 20px;
@@ -430,6 +442,9 @@ div p a:hover {
     }
     #scrollTop {
         font-size: 10px;
+        padding: 5px;
+        margin-left: -46px;
+      
     }
     footer {
         font-size: 12px;
@@ -443,6 +458,9 @@ div p a:hover {
     }
     body {
         font-size: 10px;
+    }
+    main {
+        margin: 0 40px 0 40px;
     }
     .head {
         margin-bottom: 10px;
@@ -501,6 +519,83 @@ div p a:hover {
     }
     #scrollTop {
         font-size: 8px;
+        padding: 5px;
+        margin-left: -38px;
+    }
+    footer {
+        font-size: 8px;
+        padding: 5px 0 5px 0;;
+    }
+}
+@media (max-width:459px) {
+    .wrapper {
+        margin: 0 10px 0 10px;
+    }
+    body {
+        font-size: 7px;
+    }
+    main {
+        margin: 0 30px 0 30px;
+    }
+    .head {
+        margin-bottom: 10px;
+        padding: 5px 0 5px 0;
+    }
+    .nav-head-ul {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        text-align: center;
+        margin: 0 10px 0 0px;
+        font-size: 8px;
+    }
+    section {
+        margin-bottom: 10px;
+    }
+    .ul-content li{
+        margin-top: 5px;
+        margin-inline-start: 0px;
+        list-style-type: none;
+        font-size: 8px;
+        font-weight: 700;
+    }
+    .laptop {
+        margin-top: 5px;
+    }
+    h1 {
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+    h2 {
+        font-size: 9px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .second {
+        margin: 10px 0;
+    }
+    .note-head  {
+        padding: 10px 0px 10px 10px;
+        font-weight: 700;
+    }
+    .note-body {
+        padding: 0px 10px 10px 10px;
+    }
+    #css-pic {
+        width: 100%;
+        height: 100%;
+    }
+    #angulare-pic {
+        width: 100%;
+        height: 100%;
+    }
+    #react-pic {
+        width: 100%;
+        height: 100%;
+    }
+    #scrollTop {
+        font-size: 5px;
+        padding: 5px;
+        margin-left: -28px;
     }
     footer {
         font-size: 8px;
